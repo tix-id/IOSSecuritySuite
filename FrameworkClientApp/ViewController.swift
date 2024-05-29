@@ -41,6 +41,7 @@ internal class ViewController: UIViewController {
         Jailbreak with fail msg? \(IOSSecuritySuite.amIJailbrokenWithFailMessage())
         Jailbreak with failedChecks? \(IOSSecuritySuite.amIJailbrokenWithFailedChecks())
         Run in emulator? \(IOSSecuritySuite.amIRunInEmulator())
+        Run in mac? \(IOSSecuritySuite.amIRunInMac())
         Debugged? \(IOSSecuritySuite.amIDebugged())
         Unexpected Launcher? \(IOSSecuritySuite.isParentPidUnexpected())
         Am I tempered with? \(IOSSecuritySuite.amITampered(

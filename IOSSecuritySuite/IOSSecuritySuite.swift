@@ -70,7 +70,18 @@ public class IOSSecuritySuite {
   public static func amIRunInEmulator() -> Bool {
     return EmulatorChecker.amIRunInEmulator()
   }
-  
+
+  /// This type method is used to determine if application is run in MacOs
+  ///
+  /// Usage example
+  /// ```swift
+  /// let runInMac: Bool = IOSSecuritySuite.amIRunInMac()
+  /// ```
+  /// - Returns: Bool indicating if the device is an MacOs (true) or not (false)
+  public static func amIRunInMac() -> Bool {
+    return MacChecker.amIRunInMac()
+  }
+
   /// This type method is used to determine if application is being debugged
   ///
   /// Usage example
