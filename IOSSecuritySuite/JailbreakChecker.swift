@@ -334,6 +334,7 @@ internal class JailbreakChecker {
     return (true, "")
   }
   
+  // swiftlint:disable line_length
   private static func checkDYLD() -> CheckResult {
     let suspiciousLibraries: Set<String> = [
       "systemhook.dylib", // Dopamine - hide jailbreak detection https://github.com/opa334/Dopamine/blob/dc1a1a3486bb5d74b8f2ea6ada782acdc2f34d0a/Application/Dopamine/Jailbreak/DOEnvironmentManager.m#L498

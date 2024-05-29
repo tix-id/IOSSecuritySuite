@@ -21,6 +21,8 @@
 		70B0BBCD226F3A90000CFB39 /* EmulatorChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B0BBCC226F3A90000CFB39 /* EmulatorChecker.swift */; };
 		70B0BBCF226F3AB2000CFB39 /* IOSSecuritySuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B0BBCE226F3AB2000CFB39 /* IOSSecuritySuite.swift */; };
 		70B8E16C257E528D00917097 /* ProxyChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B8E16B257E528D00917097 /* ProxyChecker.swift */; };
+		7A00E7782C073625007D408C /* MacChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00E7772C073625007D408C /* MacChecker.swift */; };
+		7A00E7792C073625007D408C /* MacChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00E7772C073625007D408C /* MacChecker.swift */; };
 		7A12583D24EFA8D40071460D /* IntegrityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12583C24EFA8D40071460D /* IntegrityChecker.swift */; };
 		890685F829912FCF00EEC5A6 /* FailedChecks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890685F729912FCF00EEC5A6 /* FailedChecks.swift */; };
 		89FDACDF2B5ACDAD00809636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FDACDE2B5ACDAD00809636 /* ViewController.swift */; };
@@ -63,6 +65,7 @@
 		70B0BBCE226F3AB2000CFB39 /* IOSSecuritySuite.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = IOSSecuritySuite.swift; sourceTree = "<group>"; tabWidth = 2; };
 		70B8E16B257E528D00917097 /* ProxyChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyChecker.swift; sourceTree = "<group>"; };
 		70DDFD5A2284AA9600D95EE7 /* FrameworkClientApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FrameworkClientApp.entitlements; sourceTree = "<group>"; };
+		7A00E7772C073625007D408C /* MacChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacChecker.swift; sourceTree = "<group>"; };
 		7A12583C24EFA8D40071460D /* IntegrityChecker.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = IntegrityChecker.swift; sourceTree = "<group>"; tabWidth = 2; };
 		890685F729912FCF00EEC5A6 /* FailedChecks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedChecks.swift; sourceTree = "<group>"; };
 		89FDACDE2B5ACDAD00809636 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +140,7 @@
 				70B0BBC8226F3A74000CFB39 /* DebuggerChecker.swift */,
 				A140C7EA2BC80E9C0054A4C9 /* PrivacyInfo.xcprivacy */,
 				70B0BBCA226F3A86000CFB39 /* JailbreakChecker.swift */,
+				7A00E7772C073625007D408C /* MacChecker.swift */,
 				890685F729912FCF00EEC5A6 /* FailedChecks.swift */,
 				70B0BBCC226F3A90000CFB39 /* EmulatorChecker.swift */,
 				7A12583C24EFA8D40071460D /* IntegrityChecker.swift */,
@@ -305,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2FF25D2499F7590050D02F /* FishHook.swift in Sources */,
+				7A00E7792C073625007D408C /* MacChecker.swift in Sources */,
 				89FDACDF2B5ACDAD00809636 /* ViewController.swift in Sources */,
 				706B0E2A226F445D0059AEA9 /* AppDelegate.swift in Sources */,
 			);
@@ -317,6 +322,7 @@
 				70B0BBC9226F3A74000CFB39 /* DebuggerChecker.swift in Sources */,
 				890685F829912FCF00EEC5A6 /* FailedChecks.swift in Sources */,
 				E2814AD72A4E388100AC9E54 /* FileChecker.swift in Sources */,
+				7A00E7782C073625007D408C /* MacChecker.swift in Sources */,
 				70B0BBCD226F3A90000CFB39 /* EmulatorChecker.swift in Sources */,
 				70B8E16C257E528D00917097 /* ProxyChecker.swift in Sources */,
 				A90FD60224528FD1007212BF /* RuntimeHookChecker.swift in Sources */,
